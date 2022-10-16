@@ -6,6 +6,8 @@
   --secondary-bg-color: #f5f4fa;
   --primery-white-color: #ffffff;
   --icon-color: #afb1b8;
+  --black-color: #000000;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -23,16 +25,6 @@ body {
   text-decoration: none;
   color: inherit;
 }
-
-/* колір основного тексту #757575 */
-/* колір тексту заголовків #212121 */
-/* колір фону навігації та тексту у шапці #FFFFFF */
-/* колір фону у шапці та підвалі #2F303A */
-/* колір фону команди #F5F4FA */
-/* колір акценту #2196F3 */
-/* колір чорний #000000 */
-/* колір контактів в підвалі 
-rgba(255, 255, 255, 0.6) */
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -233,33 +225,6 @@ rgba(255, 255, 255, 0.6) */
 .features-icon {
   width: 70px;
 }
-/* Псевдоелементи */
-/* .features-cart::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: var(--secondary-bg-color);
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-antenna::before {
-  background-image: url('../images/antenna.svg');
-}
-.icon-clock::before {
-  background-image: url('../images/clock.svg');
-}
-.icon-diagram::before {
-  background-image: url('../images/diagram.svg');
-}
-.icon-astronaut::before {
-  background-image: url('../images/astronaut.svg');
-}
-.features .features-cart + .features-cart {
-  margin-left: 30px;
-} */
 
 .features-title {
   color: var(--title-text-color);
@@ -312,7 +277,6 @@ img {
   padding-bottom: 30px;
 
   background: var(--primery-white-color);
-  /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -469,7 +433,6 @@ img {
 }
 .portfolio-cart {
   width: 370px;
-  /* width: calc((100% - 60px) / 3); */
   margin-right: 30px;
   margin-bottom: 30px;
   background: var(--primery-white-color);
