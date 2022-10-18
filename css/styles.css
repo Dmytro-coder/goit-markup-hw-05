@@ -594,3 +594,7 @@ img {
   opacity: 0;
   pointer-events: none;
 }
+
+.close:hover {
+  fill: rgb(255, 0, 0);
+}
