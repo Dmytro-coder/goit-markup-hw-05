@@ -14,6 +14,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primery-text-color);
   background-color: var(--primery-white-color);
+  padding-top: 80px;
 }
 
 .list {
@@ -35,10 +36,6 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-}
-
-.main {
-  margin-top: 80px;
 }
 
 /* Site nav */
