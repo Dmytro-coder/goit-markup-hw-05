@@ -268,7 +268,7 @@ body {
 .work {
   display: flex;
 }
-.work .work-photo-card + .work-photo-card {
+.work .work-photo + .work-photo {
   margin-left: 30px;
 }
 .section-work {
@@ -277,12 +277,13 @@ body {
 .work-photo {
   position: relative;
 }
-.work-subtitle {
+.subtitle {
   position: absolute;
-  width: 370px;
+  width: 100%;
+  padding: 27px;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 27px;
+  bottom: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
@@ -291,19 +292,6 @@ body {
   text-transform: uppercase;
   color: var(--primery-white-color);
   background: rgba(47, 48, 58, 0.8);
-
-  /* position: absolute;
-  width: 100%;
-  padding: 27px 0;
-  bottom: 0;
-  color: var(--primery-white-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  background-color: rgba(47, 48, 58, 0.8); */
 }
 
 /* Team */
