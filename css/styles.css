@@ -645,7 +645,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.is-hidden {
+.backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
